@@ -21,7 +21,7 @@ function handleEvent(event) {
 
   return client.replyMessage(event.replyToken, {
     type: 'text',
-    text: "有形好帥"
+    text: event.message.text
   });
 }
 
